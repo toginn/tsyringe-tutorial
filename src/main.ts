@@ -19,4 +19,5 @@ container.register<Database>("Database", {
 // Step3/3 コンテナからインスタンスを取得する
 const application = container.resolve(Application);
 
+console.log("コンテナからApplicationを呼び出し→");
 console.log(application);
